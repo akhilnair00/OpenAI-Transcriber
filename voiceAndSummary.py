@@ -21,3 +21,5 @@ response = openai.ChatCompletion.create(
 
 message_content = response['choices'][0]['message']['content']
 print("Summary:", message_content)
+
+# This works nicely.
